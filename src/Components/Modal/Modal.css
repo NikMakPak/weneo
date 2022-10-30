@@ -64,3 +64,10 @@
     align-items: center;
     border-right: 2px solid var(--dark-black);
 }
+.active{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+}

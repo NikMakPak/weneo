@@ -7,6 +7,7 @@ import Bl from "./Components/BlockSite/Bl";
 
 function App() {
   return (<>
+          <TextAnalize/>
       <BlockSite/>
 
   </>
