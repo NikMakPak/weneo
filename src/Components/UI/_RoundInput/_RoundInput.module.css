@@ -1,0 +1,18 @@
+.inpt{
+    padding: 5px 15px;
+    background-color: var(--white);
+    color: black;
+    font-style: inherit;
+    font-weight: normal;
+    border: none;
+    outline: none;
+    transition: 0.3s;
+    cursor: pointer;
+    border-radius: 20px;
+    text-align: center;
+    width: 200px;
+}
+.inpt:hover{
+    background-color: var(--dark-black);
+    color: var(--white);
+}

@@ -1,0 +1,66 @@
+.modal{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.42);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    overflow: hidden;
+}
+.modal__content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: var(--white);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 739px;
+    height: 360px;
+    border-radius: 30px;
+    position: relative;
+}
+.modal__content figcaption{
+    font-size: 32px;
+}
+.modal__content p{
+    font-size: 32px;
+}
+.modal__btn{
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    font-size: 32px;
+    line-height: 39px;
+}
+.modal__content img{
+    object-fit: contain;
+}
+.modal__content .card__img{
+    width: 305px;
+    height: 580px;
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.bar{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-evenly;
+    width: 250px;
+    align-items: center;
+    border-right: 2px solid var(--dark-black);
+}

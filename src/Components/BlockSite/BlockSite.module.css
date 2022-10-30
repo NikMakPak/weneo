@@ -1,0 +1,64 @@
+.header{
+    text-align: center;
+}
+.title{
+    margin: 57px 0;
+}
+.nav ul, .links ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+    padding-top: 10px;
+    background-color: #000;
+    color: #fff;
+    height: 40px;
+    transition: 0.3s;
+}
+nav li:hover{
+    color: #BCBCBC;
+    transition: 0.3s;
+}
+.links ul{
+    background-color: #EBEDFF;
+    color: #000;
+}
+.links li:hover{
+    text-decoration: underline;
+}
+.wrapper{
+    display: flex;
+    justify-content:center;width:100%;
+    margin-top: 20px;
+}
+.imgBlock{
+    position: relative;
+}
+.cardContent{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 282px;
+    height: 124px;
+    background: #EBEDFF;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+.cardContent h3{
+    font-size: 15px;
+}
+.cardContent a{
+    padding: 5px 17px;
+    background: #110E0E;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 15px;
+    transition: 0.3s;
+}
+.cardContent a:hover{
+    background-color: #636363;
+}

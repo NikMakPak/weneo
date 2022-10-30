@@ -1,0 +1,11 @@
+.inpt{
+    width: 1040px;
+    height: 91px;
+    padding: 66px;
+    margin: 5px 0;
+    background: #F5F5F5;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    font-style: italic;
+    text-align: center;
+}
